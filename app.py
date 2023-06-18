@@ -3,7 +3,7 @@ import pandas as pd
 import sklearn
 import pickle
 
-model = pickle.load(open("rf_random.pkl", "rb"))
+model = pickle.load(open("modelrf.pkl", "rb"))
 
 st.set_page_config(page_title='Flight Price Prediction')
 
